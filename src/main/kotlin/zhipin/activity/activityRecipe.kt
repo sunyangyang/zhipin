@@ -21,7 +21,8 @@ fun RecipeExecutor.activityRecipe(
             packageName = packageName,
             isLauncher = false,
             hasNoActionBar = false,
-            generateActivityTitle = true
+            generateActivityTitle = true,
+
     )
 
     val mvvmActivity = acitivityKt(projectData.applicationPackage, activityClass, layoutName, packageName, viewModelName)

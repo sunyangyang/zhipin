@@ -33,11 +33,11 @@ val httpRequestTemplate
             suggest = { "${httpName.value}Response" }
         }
 
-//        val isGet = booleanParameter {
-//            name = "Method is Get"
-//            default = false
-//            help = "请输入是否是get方法，默认是POST"
-//        }
+        val isGet = booleanParameter {
+            name = "Method is Get"
+            default = false
+            help = "请输入是否是get方法，默认是POST"
+        }
 
         val packageName = defaultPackageNameParameter
 
@@ -45,7 +45,7 @@ val httpRequestTemplate
             TextFieldWidget(httpName),
             TextFieldWidget(requestName),
             TextFieldWidget(responseName),
-//            CheckBoxWidget(isGet),
+            CheckBoxWidget(isGet),
             PackageNameWidget(packageName),
         )
 //        thumb { File("logo.png") }
@@ -55,6 +55,7 @@ val httpRequestTemplate
                 requestName.value,
                 responseName.value,
                 packageName.value,
+                isGet.value,
             )
         }
     }
@@ -63,7 +64,7 @@ val httpRequestTemplate
 val defaultPackageNameParameter
     get() = stringParameter {
         name = "Package name"
-        visible = { !isNewModule }
+        visible = { true }
         default = "com.twl.zhipin"
         constraints = listOf(Constraint.PACKAGE)
         suggest = { packageName }
