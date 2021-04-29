@@ -1,7 +1,21 @@
 <idea-plugin>
+
     <id>com.bosszhip.template</id>
     <name>BossZhiPin Template</name>
     <vendor>sunyangyang</vendor>
+
+    <!-- Description of the plugin.
+       Should be short and to the point.
+       Start the description with a verb in a present simple form such as
+       "integrates", "synchronizes", "adds support for" or "lets you view".
+       Don't use marketing adjectives like "simple", "lightweight", or "professional".
+       Don't repeat the name of the plugin.
+       For plugins that add language/platform/framework support, the description MUST specify
+       the version of the corresponding language/platform/framework.
+       Don't mention the IDE compatibility. E.g., don't say "Adds support to IntelliJ IDEA for..."
+       Displayed in the "Plugins" settings dialog and the plugin repository Web interface.
+       Simple HTML elements can be included between <![CDATA[  ]]> tags.  -->
+    <description>The Android Studio Template for our company</description>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->

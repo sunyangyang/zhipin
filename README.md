@@ -1,1 +1,3 @@
-在插件模板上修改，添加了直聘模板
+<!-- Plugin description -->
+The Android Studio Template for our company
+<!-- Plugin description end -->

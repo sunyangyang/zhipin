@@ -10,7 +10,7 @@ val httpRequestTemplate
         minApi = 7
         minBuildApi = 14
 
-        category = Category.Activity
+        category = Category.Other
         formFactor = FormFactor.Mobile
         screens = listOf(WizardUiContext.ActivityGallery, WizardUiContext.MenuEntry, WizardUiContext.NewProject, WizardUiContext.NewModule, WizardUiContext.MenuEntry)
 
