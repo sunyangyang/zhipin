@@ -15,15 +15,13 @@
        Don't mention the IDE compatibility. E.g., don't say "Adds support to IntelliJ IDEA for..."
        Displayed in the "Plugins" settings dialog and the plugin repository Web interface.
        Simple HTML elements can be included between <![CDATA[  ]]> tags.  -->
-    <description>The Android Studio Template for our company</description>
+    <description>This is an Android studio Template that is designed for internal usage. Just right click on the Package to create Activity, Fragment or HttpRequest. Additionally, it can automatically create the matching code.</description>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
 
     <depends>org.jetbrains.android</depends>
-    <depends>org.jetbrains.kotlin</depends>
     <depends>com.intellij.modules.java</depends>
-    <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <applicationService serviceImplementation="com.twl.zhipin.services.MyApplicationService"/>

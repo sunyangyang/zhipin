@@ -12,7 +12,7 @@ import com.google.gson.annotations.Expose;
 import ${packageName}.${ResponseClassName};
 import com.twl.http.callback.AbsRequestCallback;
 import com.twl.http.config.RequestMethod;
-import net.bosszhipin.base.BaseApiRequest
+import net.bosszhipin.base.BaseApiRequest;
 import net.bosszhipin.base.HttpResponse;
 
 public class ${RequestClassName} extends BaseApiRequest<${ResponseClassName}> {
